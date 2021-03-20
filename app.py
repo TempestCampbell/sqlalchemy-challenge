@@ -39,3 +39,12 @@ def welcome():
         f"/api/v1.0/tobs<br/>"
         f"/api/v1.0/temp/start/end"
     )
+@app.route("/api/v1.0/precipitation")
+
+@app.route("/api/v1.0/stations")
+
+@app.route("/api/v1.0/tobs")
+
+@app.route("/api/v1.0/temp/<start>")
+
+@app.route("/api/v1.0/temp/<start>/<end>")
